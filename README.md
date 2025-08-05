@@ -1,72 +1,63 @@
+ 
+# 🌿 رَصــد - منصة بيئية ذكية
 
-## Project info
+**هذا المشروع مقدم من فريق “رَصــد” ضمن هاكاثون عسير تبتكر 2025.**
 
-**URL**: https://lovable.dev/projects/a271e89f-1e75-4bc3-b704-a0d13efcb910
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+**رابط المنصة** https://preview--rasd.lovable.appا.    
+ 
+## 📌 نبذة عن الفكرة
 
-**Use Lovable**
+"رَصــد" هي منصة بيئية ذكية لحماية غابات منطقة عسير من المخالفات والتعديات البيئية مثل:
+- الاحتطاب الجائر
+- الحرائق
+- التلوث
+- الرعي الجائر
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a271e89f-1e75-4bc3-b704-a0d13efcb910) and start prompting.
+تستخدم المنصة تقنيات متقدمة لرصد التغيرات البيئية بشكل **لحظي واستباقي**، وذلك من خلال:
+- شبكة من الحساسات الذكية (IoT)
+- تحليل البيانات بالذكاء الاصطناعي (AI)
+- دعم الاستجابة الميدانية بطائرات الدرون
+- تمكين المجتمع من التبليغ عبر تطبيق جوال تفاعلي بنظام نقاط ومكافآت
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ⚙️ آلية العمل
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. تُزرع الحساسات في الغابات والأودية لقياس الحرارة، الحركة، الدخان، والرطوبة.
+2. ترسل البيانات لحظيًا إلى خادم المنصة.
+3. يقوم نظام الذكاء الاصطناعي بتحليل البيانات والتنبؤ بالمخاطر، ويميز بين النشاط الطبيعي والمخالفات.
+4. يتم إرسال التنبيهات للجهات المختصة وتفعيل طائرات الدرون للمراقبة.
+5. يتيح تطبيق الجوال للمواطنين التبليغ مع كسب نقاط دعم بيئي.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 👥 المستفيدون
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- الجهات الحكومية: وزارة البيئة، الدفاع المدني، البلديات
+- المجتمع المحلي: المواطنون، المزارعون، المتطوعون
+- الجامعات والمراكز البحثية
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 💡 القيمة المضافة
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- مراقبة لحظية واستباقية
+- تغطية بيئية تصل إلى 95٪
+- تقليل زمن الاستجابة للطوارئ بنسبة 60٪
+- تمكين المجتمع من حماية البيئة
+- دعم مبادرة **"السعودية الخضراء"** ورؤية **2030**
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧠 التقنيات المستخدمة
 
-**Use GitHub Codespaces**
+- 🌐 إنترنت الأشياء (IoT)
+- 🤖 الذكاء الاصطناعي (AI)
+- 🚁 طائرات درون
+- 📊 لوحات تحكم تفاعلية (Dashboards)
+-
+ 
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a271e89f-1e75-4bc3-b704-a0d13efcb910) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> 🌱 نحو بيئة آمنة ومستدامة.. رَصــد يحمي غابات عسير.
