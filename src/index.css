@@ -2,39 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* تصميم نظام رَصــد البيئي - ألوان طبيعية مستوحاة من غابات عسير
+جميع الألوان يجب أن تكون HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 120 20% 98%;
+    --foreground: 120 20% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 120 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 120 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 142 20% 93%;
+    --secondary-foreground: 142 76% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 142 15% 95%;
+    --muted-foreground: 142 30% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 35 100% 50%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --warning: 45 93% 47%;
+    --warning-foreground: 0 0% 98%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+
+    --border: 142 20% 88%;
+    --input: 142 15% 92%;
+    --ring: 142 76% 36%;
+
+    /* تدرجات طبيعية */
+    --gradient-nature: linear-gradient(135deg, hsl(142 76% 36%), hsl(170 76% 40%));
+    --gradient-sky: linear-gradient(180deg, hsl(200 80% 85%), hsl(142 20% 93%));
+    --gradient-alert: linear-gradient(135deg, hsl(0 84% 60%), hsl(25 90% 55%));
+    
+    /* ظلال طبيعية */
+    --shadow-soft: 0 4px 20px hsl(142 76% 36% / 0.1);
+    --shadow-glow: 0 0 30px hsl(142 76% 36% / 0.2);
 
     --radius: 0.5rem;
 
